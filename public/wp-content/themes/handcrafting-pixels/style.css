@@ -33,6 +33,57 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 # Clearings
 --------------------------------------------------------------*/
 
+.header-container {
+	width: 100%;
+}
+
+.handcrafting-logo a {
+    display: block;
+    text-indent: -9999px;
+    width: 300px;
+    height: 40px;
+    background: url(..library/images/handcrafting-pixels.png);
+    background-size: 300px 40px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3em;
+}
+
+/* Custom, iPhone Retina */
+   @media only screen and (min-width : 320px) {
+
+   }
+
+/* Extra Small Devices, Phones */
+   @media only screen and (min-width : 480px) {
+
+   }
+
+/* Small Devices, Tablets */
+   @media only screen and (min-width : 768px) {
+
+   }
+
+/* Medium Devices, Desktops */
+   @media only screen and (min-width : 992px) {
+
+   }
+
+/* Large Devices, Wide Screens */
+   @media only screen and (min-width : 1200px) {
+
+   }
+
+
+
+
+
+
+
+
+
+
+
 /*--------------------------------------------------------------
 # Normalize
 --------------------------------------------------------------*/
