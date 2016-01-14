@@ -24,5 +24,23 @@
 
 <?php wp_footer(); ?>
 
+<script>
+$(document).ready(function() {
+	  $('.menu-trigger').click(function() {
+	    $('nav ul').slideToggle(500);
+		$(this).text($(this).text() == 'Show Menu' ? 'Hide Menu' : 'Show Menu');
+	  });//end slide toggle
+
+	  $(window).resize(function() {
+			if (  $(window).width() > 500 ) {
+				$('nav ul').removeAttr('style');
+			 }
+		});//end resize
+
+
+
+	});//end ready
+</script>
+
 </body>
 </html>
