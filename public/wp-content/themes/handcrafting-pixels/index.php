@@ -14,6 +14,9 @@
 
 get_header(); ?>
 
+<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,600italic,300' rel='stylesheet' type='text/css'>
+
+
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
 
