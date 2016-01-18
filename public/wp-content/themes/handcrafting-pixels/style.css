@@ -158,6 +158,10 @@ nav a:hover {
 	clear:both;
 }
 
+.social-icons {
+	display: none;
+}
+
 .twitter {
 	display: none;
 }
@@ -184,7 +188,7 @@ nav a:hover {
 			margin-right: auto;
 			padding: 0 2em 0 2em;
 		}
-		
+
 		.primary-navigation {
 		}
 
@@ -194,32 +198,34 @@ nav a:hover {
 			padding: 1.75em;
 			margin-right: 1em;
 		}
-			   
+
 		.menu-trigger {
 			display:none;
-		}   
-		
+		}
+
 		nav {
 			display: inline-block;
-			width: auto;
 			text-align:left;
+			width: auto;
+
 		}
-		
+
 		nav ul {
 			-webkit-margin-before: 0em;
 			-webkit-margin-after: 0em;
 			-webkit-margin-start: 0px;
 			-webkit-margin-end: 0px;
 			-webkit-padding-start: 0px;
-			display: block;
+			display: inline-block;
+			width: auto;
 		}
-		
+
 		nav ul li {
 			display:inline-block;
 			border: 0;
 			width: auto;
 		}
-		
+
 		nav a {
 			color:#B8B8B8;
 			display:block;
@@ -241,15 +247,20 @@ nav a:hover {
 			margin-right: auto;
 			padding: 0 2em 0 2em;
 		}
-	   
+
 		.handcrafting-logo {
 			width: 33%;
 		}
-		
+
 		nav a {
 			padding:1.6em 2em;
 		 }
-		 
+
+		 .social-icons {
+		 	display: inline-block;
+			float: right;
+		 }
+
 		 .twitter {
 			display: inline-block;
 			width: 30px;

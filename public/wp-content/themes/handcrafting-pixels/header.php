@@ -30,22 +30,24 @@
         <a href="index.php" class="handcrafting-logo">
             Handcrafting Pixels
         </a>
-    
+
 		<nav>
   			<a href="#" class="menu-trigger">Show Menu</a>
   				<ul>
     				<li><a class="hvr-sweep-to-bottom" href="#">Blog</a></li><li><a class="hvr-sweep-to-bottom" href="#">About</a></li><li><a class="hvr-sweep-to-bottom" href="#">Podcasts</a></li><li><a class="hvr-sweep-to-bottom" href="#">Shop</a></li>
   				</ul>
 		</nav>
-        
-        <a href="#" class="twitter">
-            Twitter
-        </a>
-        
-        <a href="#" class="instagram">
-            Instagram
-        </a>
-        
+
+		<div class="social-icons">
+	        <a href="#" class="twitter">
+	            Twitter
+	        </a>
+
+	        <a href="#" class="instagram">
+	            Instagram
+	        </a>
+		</div>
+
         <div class="clear"></div>
 	</div>
 
