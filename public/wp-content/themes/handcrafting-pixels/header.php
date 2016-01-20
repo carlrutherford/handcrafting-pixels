@@ -39,11 +39,11 @@
 		</nav>
 
 		<div class="social-icons">
-	        <a href="#" class="twitter">
+	        <a href="https://twitter.com/carlrutherford/" target="_blank" class="twitter">
 	            Twitter
 	        </a>
 
-	        <a href="#" class="instagram">
+	        <a href="https://www.instagram.com/carlrutherford/" target="_blank" class="instagram">
 	            Instagram
 	        </a>
 		</div>

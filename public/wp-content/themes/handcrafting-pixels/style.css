@@ -38,12 +38,12 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 	margin-left: auto;
 	margin-right: auto;
 	padding: 0;
-	margin-bottom: 3em;
 }
 
 .primary-navigation {
 	margin-left: auto;
 	margin-right: auto;
+	margin-bottom: 3em;
 }
 
 .handcrafting-logo {
@@ -71,6 +71,7 @@ nav {
   	width: 100%;
   	text-align: center;
   	margin-bottom: 1.6em;
+	float: left;
 }
 
 nav ul {
@@ -147,7 +148,7 @@ nav a:hover {
   transition-timing-function: ease-out;
 }
 .hvr-sweep-to-bottom:hover, .hvr-sweep-to-bottom:focus, .hvr-sweep-to-bottom:active {
-  color: #00a1e1;
+  color: #50e3d7;
 }
 .hvr-sweep-to-bottom:hover:before, .hvr-sweep-to-bottom:focus:before, .hvr-sweep-to-bottom:active:before {
   -webkit-transform: scaleY(1);
@@ -186,10 +187,10 @@ nav a:hover {
 			width: 100%;
 			margin-left: auto;
 			margin-right: auto;
-			padding: 0 2em 0 2em;
 		}
 
 		.primary-navigation {
+			padding: 0 2em 0 2em;
 		}
 
 	   .handcrafting-logo {
@@ -241,13 +242,6 @@ nav a:hover {
 
 /* Medium Devices, Desktops */
    @media only screen and (min-width : 992px) {
-	   .section-container {
-			width: 100%;
-			margin-left: auto;
-			margin-right: auto;
-			padding: 0 2em 0 2em;
-		}
-
 		.handcrafting-logo {
 			width: 33%;
 		}
@@ -259,23 +253,36 @@ nav a:hover {
 		 .social-icons {
 		 	display: inline-block;
 			float: right;
+			margin-top: 1.2em;
 		 }
 
 		 .twitter {
 			display: inline-block;
-			width: 30px;
-			height: 30px;
-			background-color: red;
-			margin-right: .4em;
+			width: 20px;
+			height: 20px;
+			background: url(library/images/img-hp-logo-twitter.png);
+			background-position: top;
+			background-size: 20px 40px;
+			margin-right: .8em;
 			text-indent: -9999px;
+		}
+
+		.twitter:hover {
+			background-position: bottom;
 		}
 
 		.instagram {
 			display: inline-block;
-			width: 30px;
-			height: 30px;
-			background-color: blue;
+			width: 20px;
+			height: 20px;
+			background: url(library/images/img-hp-logo-insta.png);
+			background-position: top;
+			background-size: 20px 40px;
 			text-indent: -9999px;
+		}
+
+		.instagram:hover {
+			background-position: bottom;
 		}
    }
 
