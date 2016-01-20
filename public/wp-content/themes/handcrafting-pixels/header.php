@@ -24,22 +24,31 @@
 
 <body <?php body_class(); ?>>
 
-<div class="header-container">
+<div class="section-container">
 
 	<div class="primary-navigation">
+        <a href="index.php" class="handcrafting-logo">
+            Handcrafting Pixels
+        </a>
+
 		<nav>
   			<a href="#" class="menu-trigger">Show Menu</a>
   				<ul>
-    				<li><a class="hvr-sweep-to-bottom" href="#">Blog</a></li>
-    				<li><a class="hvr-sweep-to-bottom" href="#">About</a></li>
-    				<li><a class="hvr-sweep-to-bottom" href="#">Podcasts</a></li>
-    				<li><a class="hvr-sweep-to-bottom" href="#">Shop</a></li>
+    				<li><a class="hvr-sweep-to-bottom" href="#">Blog</a></li><li><a class="hvr-sweep-to-bottom" href="#">About</a></li><li><a class="hvr-sweep-to-bottom" href="#">Podcasts</a></li><li><a class="hvr-sweep-to-bottom" href="#">Shop</a></li>
   				</ul>
 		</nav>
-	</div>
 
-	<div class="handcrafting-logo">
-		Handcrafting Pixels
+		<div class="social-icons">
+	        <a href="https://twitter.com/carlrutherford/" target="_blank" class="twitter">
+	            Twitter
+	        </a>
+
+	        <a href="https://www.instagram.com/carlrutherford/" target="_blank" class="instagram">
+	            Instagram
+	        </a>
+		</div>
+
+        <div class="clear"></div>
 	</div>
 
 </div>
