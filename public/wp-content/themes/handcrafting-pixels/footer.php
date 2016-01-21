@@ -11,16 +11,28 @@
 
 ?>
 
-	</div><!-- #content -->
+<div class="footer-container">
 
-	<footer id="colophon" class="site-footer" role="contentinfo">
-		<div class="site-info">
-			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'handcrafting-pixels' ) ); ?>"><?php printf( esc_html__( 'Proudly powered by %s', 'handcrafting-pixels' ), 'WordPress' ); ?></a>
-			<span class="sep"> | </span>
-			<?php printf( esc_html__( 'Theme: %1$s by %2$s.', 'handcrafting-pixels' ), 'handcrafting-pixels', '<a href="http://underscores.me/" rel="designer">Carl Rutherford</a>' ); ?>
-		</div><!-- .site-info -->
-	</footer><!-- #colophon -->
-</div><!-- #page -->
+	<div class="footer">
+			<div class="footer-contact">
+				<div class="title">Contact</div>
+				<div class="statement">If you would like to contact me then please feel free to get in touch.</div>
+				<div class="button"><a href "mailto:hello@handcraftingpixels.co.uk">Email</a></div>
+			</div>
+
+			<div class="footer-social">
+				<div class="title">Connect</div>
+				<div class="statement"><a href "https://twitter.com/carlrutherford/" target="_blank">Read my Tweets</a></div>
+				<div class="statement"><a href "https://www.instagram.com/carlrutherford/" target="_blank">View my Photos</a></div>
+			</div>
+
+			<div class="clear"></div>
+
+			<div class="footer-copyright">&copy; <?php echo date("Y") ?> Handcrafiting Pixels <a href "#">Privacy</a> &#9632; <a href "#">Terms</a></div>
+
+	</div>
+
+</div>
 
 <?php wp_footer(); ?>
 

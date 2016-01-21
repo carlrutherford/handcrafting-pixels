@@ -33,6 +33,8 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 # Clearings
 --------------------------------------------------------------*/
 
+/* Website Header */
+
 .section-container {
 	width: 100%;
 	margin-left: auto;
@@ -171,6 +173,106 @@ nav a:hover {
 	display: none;
 }
 
+/* Website Footer */
+
+.footer-container {
+	background-color: #F0F0F0;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 2em;
+	box-shadow: 0px 500px 0px 500px #F0F0F0;
+}
+
+.footer {
+	width: 100%;
+	padding: 2em;
+}
+
+.title {
+	color:#B8B8B8;
+	display:block;
+	text-decoration: none;
+	padding:1.6em 2em 1.6em 0;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: .8em;
+}
+
+.title::after {
+	content: '';
+	width: 5em;
+	height: 2px;
+	background: #B8B8B8;
+	display: block;
+	margin-top: 3px;
+}
+
+.statement {
+	color:#415762;
+	font-weight: 700;
+	font-size: 1.8em;
+	margin-bottom: .4em;
+	text-decoration: none;
+}
+
+.statement a {
+	color:#415762;
+	font-weight: 700;
+	text-decoration: none;
+}
+
+.statement a:hover {
+	color:#50e3d7;
+	text-decoration: underline;
+}
+
+.button a {
+    background-color: #415762;
+    border: none;
+    color: white;
+    padding: 1em 2em;
+    text-align: center;
+    text-decoration: none;
+	text-transform: uppercase;
+    display: inline-block;
+    font-size: .8em;
+	font-weight: 700;
+	margin-top: .8em
+}
+
+.button a:hover {
+    background-color: #50e3d7;
+}
+
+.footer-contact {
+	width: 100%;
+	margin-bottom: 2em;
+}
+
+.footer-social {
+	width: 100%;
+	margin-bottom: 2em;
+}
+
+.footer-copyright {
+	margin-top: 4em;
+	color: #B8B8B8;
+	font-weight: 500;
+	font-size: .8em;
+}
+
+.footer-copyright a {
+	color: #B8B8B8;
+	text-decoration: none;
+	padding: 0 2em;
+}
+
+.footer-copyright a:hover {
+	text-decoration: underline;
+	color: #50e3d7;
+}
+
 /* Custom, iPhone Retina */
    @media only screen and (min-width : 320px) {
 
@@ -192,6 +294,12 @@ nav a:hover {
 		.primary-navigation {
 			padding: 0 2em 0 2em;
 		}
+
+		.footer {
+ 			width: 100%;
+ 			margin-left: auto;
+ 			margin-right: auto;
+ 		}
 
 	   .handcrafting-logo {
 			float: left;
@@ -236,6 +344,18 @@ nav a:hover {
 			font-weight: 500;
 			letter-spacing: .1em;
 			font-size: .8em;
+		 }
+
+		 .footer-contact {
+		 	width: 50%;
+		 	padding-right: 2em;
+			float: left;
+		 }
+
+		 .footer-social {
+		 	width: 50%;
+		 	padding-left: 2em;
+			float: right;
 		 }
 
 }
@@ -284,6 +404,10 @@ nav a:hover {
 		.instagram:hover {
 			background-position: bottom;
 		}
+
+		.footer-social {
+		   padding-left: 8em;
+		}
    }
 
 
@@ -291,6 +415,14 @@ nav a:hover {
    @media only screen and (min-width : 1200px) {
 	   .section-container {
 	   		max-width: 1200px;
+	   }
+
+	   .footer {
+	   		max-width: 1200px;
+	   }
+
+	   .footer-social {
+		  padding-left: 12em;
 	   }
 
    }
