@@ -27,14 +27,14 @@
 <div class="section-container">
 
 	<div class="primary-navigation">
-        <a href="index.php" class="handcrafting-logo">
+        <a class="handcrafting-logo">
             Handcrafting Pixels
         </a>
 
 		<nav>
   			<a href="#" class="menu-trigger">Show Menu</a>
   				<ul>
-    				<li><a class="hvr-sweep-to-bottom" href="#">Blog</a></li><li><a class="hvr-sweep-to-bottom" href="#">About</a></li><li><a class="hvr-sweep-to-bottom" href="#">Podcasts</a></li><li><a class="hvr-sweep-to-bottom" href="#">Shop</a></li>
+    				<li><a href="index.php">Blog</a></li><li><a href="about.php">About</a></li></li>
   				</ul>
 		</nav>
 
